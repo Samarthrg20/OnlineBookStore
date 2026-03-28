@@ -21,12 +21,44 @@ A Django-based web application that allows users to browse, search, and manage b
 
 ---
 
-## 📸 Screenshots
-![Home](screenshots/home.png)
-![Login](screenshots/login.png)
-![Cart](screenshots/cart.png)
----
+## 🔐 Admin Access
 
+Books are managed through the Django Admin Panel.
+
+- Admin (superuser) can:
+  - Add books
+  - Update books
+  - Delete books
+
+👉 To access admin panel:
+http://127.0.0.1:8000/admin/
+
+
+## 👤 User Roles
+
+- Admin:
+  - Manage books (CRUD operations)
+- Users:
+  - Browse books
+  - Add to cart
+  - Place orders
+
+
+## 📸 Screenshots
+<h2 align="center">🏠 Home Page</h2>
+<p align="center">
+  <img src="screenshots/home.png" width="700"/>
+</p>
+
+<h2 align="center">🔐 Login Page</h2>
+<p align="center">
+  <img src="screenshots/login.png" width="700"/>
+</p>
+
+<h2 align="center">🛒 Cart Page</h2>
+<p align="center">
+  <img src="screenshots/cart.png" width="700"/>
+</p>
 ## ⚙️ Installation
 
 1. Clone the repo:
