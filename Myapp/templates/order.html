@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order</title>
+</head>
+<body>
+
+<h2>✅ Confirm Your Order</h2>
+
+<p><strong>Book:</strong> {{ item.book.title }}</p>
+<p><strong>Price:</strong> ₹{{ item.book.price }}</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Confirm Order</button>
+</form>
+
+<br>
+<a href="/cart/">⬅ Back to Cart</a>
+
+</body>
+</html>
